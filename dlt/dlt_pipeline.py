@@ -1,3 +1,14 @@
+# ----------------------------------------------------------------------
+# Delta Live Tables (DLT) Pipeline — Flights Data Processing
+#
+# This pipeline ingests raw booking, flight, passenger, and airport data
+# from Bronze storage, applies transformations and data quality checks,
+# and creates Silver tables using automated CDC flows (SCD Type 1).
+#
+# Finally, it builds a unified 'silver_business' view by joining all
+# the Silver layer tables for downstream analytics.
+# ----------------------------------------------------------------------
+
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
 import dlt 
