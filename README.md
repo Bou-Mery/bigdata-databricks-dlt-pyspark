@@ -40,13 +40,13 @@ The pipeline follows the **Medallion Architecture** pattern with three distinct 
   - Pre-aggregated business metrics
   - High-performance query patterns
 
-![Architecture Diagram](image_placeholder_2)
+<img width="4199" height="2379" alt="Image" src="https://github.com/user-attachments/assets/aa2da3be-b58c-4833-ba5d-731c15b70145" />
 
 ## 📊 Data Model
 
 The pipeline implements a **Star Schema** design optimized for flight booking analytics:
 
-![Data Model](image_placeholder_1)
+<img width="1272" height="992" alt="Image" src="https://github.com/user-attachments/assets/0ffefd2f-46ca-4b05-b7c7-f5fba1fdf30e" />
 
 ### Fact Table
 - **`fact_bookings`**: Central fact table containing booking transactions
@@ -90,9 +90,9 @@ The pipeline consists of multiple interconnected components:
 4. **Gold Tables**: Star schema for analytics
 5. **Business Layer**: Ready for BI tools consumption
 
-![Pipeline Structure](image_placeholder_4)
+<img width="1238" height="512" alt="Image" src="https://github.com/user-attachments/assets/c886c7e6-610c-4a54-a521-62c4c1287115" />
 
-
+<img width="1232" height="614" alt="Image" src="https://github.com/user-attachments/assets/7b120f30-c5f5-46e2-86ee-a2567af13246" />
 
 ## 🛠️ Technologies Used
 
@@ -110,7 +110,8 @@ The pipeline consists of multiple interconnected components:
 
 ## 📁 Project Structure
 
-![Project Structure](image_placeholder_3)
+
+<img width="642" height="474" alt="Image" src="https://github.com/user-attachments/assets/290d059c-047f-4989-85b8-f956769b4c4f" />
 
 
 ## 🔮 Future Enhancements
